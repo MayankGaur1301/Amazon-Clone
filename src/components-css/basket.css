@@ -1,0 +1,21 @@
+.basket_container {
+  padding: 1rem;
+}
+
+.empty_para > h2 {
+  margin-bottom: 10px;
+}
+
+.back_home_btn {
+  background-color: #febd69;
+  border-radius: 2px;
+  border: 0.2px solid rgb(174, 171, 171);
+  outline: none;
+  padding: 5px;
+  letter-spacing: 0.5px;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+

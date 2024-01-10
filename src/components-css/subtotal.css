@@ -1,0 +1,43 @@
+.subtotal_box {
+    width: 40%;
+    height: max-content;
+    padding: 12px;
+    background-color: white;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .subtotal_p {
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+  
+  .subtotal_input > input {
+    margin-right: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .subtotal_input > label {
+    font-weight: 500;
+    cursor: text;
+  }
+  
+  .subtotal_input {
+    margin-block: 15px;
+  }
+  
+  .subtotal_button {
+    width: 100%;
+  }
+  
+  .subtotal_button_btn {
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #febd69;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0.8px solid black;
+  }

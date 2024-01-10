@@ -1,0 +1,97 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+.signInForm {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.signIn_amazon_logo {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.amazon_logo_img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.signIn_box {
+  width: 90%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.1px solid rgb(196, 193, 193);
+}
+
+.input_fields_sigin {
+  width: 98%;
+  margin-top: 15px;
+  > p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-block: 5px;
+}
+}
+
+.Input_field {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    border: 0.8px solid black;
+    padding: 5px;
+    &::placeholder {
+        letter-spacing: 0.5px;
+        font-size: 1rem;
+    }
+} 
+
+.signin_button {
+    width: 100%;
+    padding: 5px;
+    background-color: #febd69;
+    font-size: 1.1rem;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    margin-block: 15px;
+    &:hover {
+        background-color: #b3d41d;
+        cursor: pointer;
+      }
+}
+
+.terms_conditions {
+    word-spacing: 1px;
+    text-transform: capitalize;
+    margin-block: 15px;
+}
+
+.alt {
+    color: blueviolet;
+}
+
+.amazon_account_button {
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin-block: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover {
+        opacity: 0.8;
+    }
+}
