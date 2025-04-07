@@ -3,13 +3,13 @@ import "../components-css/product.css";
 import { useStateValue } from "./StateProvider";
 
 const Product = ({ id, title, image, price, rating }) => {
-
-  const [{}, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue(); // 
 
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",
-      item: {                    //item is basically a payload.
+      item: {
+        //item is basically a payload.
         id: id,
         title: title,
         image: image,
@@ -22,7 +22,7 @@ const Product = ({ id, title, image, price, rating }) => {
   return (
     <div className="product">
       <div className="products_img">
-        <img src={image} className="product_image" />
+        <img src={image} alt={title} className="product_image" />
       </div>
       <div className="product_details">
         <p className="title">{title}</p>

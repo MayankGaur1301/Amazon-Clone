@@ -3,7 +3,7 @@ import "../components-css/basketItems.css";
 import { useStateValue } from "./StateProvider";
 
 const BasketItems = ({ id, title, price, image, rating }) => {
-  const [{ basket }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
   const removeFromBasket = () => {
     dispatch({
       type: "REMOVE_FROM_BASKET",
@@ -16,7 +16,7 @@ const BasketItems = ({ id, title, price, image, rating }) => {
       <div className="basket_product">
         <div className="basket_details">
           <div className="product_image_basket">
-            <img src={image} alt="" />
+            <img src={image} alt={title} />
           </div>
           <div className="product_details_basket">
             <p className="product_title_basket">{title}</p>

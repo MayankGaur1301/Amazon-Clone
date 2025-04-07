@@ -1,5 +1,5 @@
 export const getBasketTotal = (basket) => {
-  return basket?.reduce((amount, item) => `${item.price + amount}`, '');
+  return basket?.reduce((amount, item) => amount + Number(item.price), 0);
 };
 
 export const initialState = {
