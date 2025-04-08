@@ -19,10 +19,11 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "npm run start",
-    "build": "npm run build"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
